@@ -7,6 +7,17 @@ body{
 .margin100{
   margin-top: 100px;
 }
+ul .social-icons{
+  list-style-type: none;
+  margin: 0px 10px;
+  display: inline;
+}
+ul .social-icons a{
+  padding: 10px 14px;
+  border-radius: 50px;
+  background-color: #ffffff2e;
+  text-decoration: none;
+}
 /* header style */
 .slider-max{
   max-height: 500px;
