@@ -4,7 +4,12 @@
 body{
   font-family: 'Poppins', sans-serif !important;
 }
-/* header logo style */
+.margin100{
+  margin-top: 100px;
+}
+/* header style */
 .slider-max{
   max-height: 500px;
 }
+
+/* course section styles */
