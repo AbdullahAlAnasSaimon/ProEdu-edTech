@@ -30,3 +30,8 @@ ul .social-icons a{
 .next-btn{
   justify-content: end !important;
 }
+
+/* footer styles */
+.set-width{
+  width: 183px !important;
+}
