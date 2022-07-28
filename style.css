@@ -23,4 +23,10 @@ ul .social-icons a{
   max-height: 500px;
 }
 
-/* course section styles */
+/* students feedback styles */
+.prev-btn{
+  justify-content: start !important;
+}
+.next-btn{
+  justify-content: end !important;
+}
