@@ -277,12 +277,47 @@
               <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
             </div>
             <div class="col-12 col-lg-6">
-              <button class="btn btn-light text-primary ms-auto d-lg-block fw-semibold">Register Now</button>
+              <!-- Button trigger modal -->
+              <button class="btn btn-light text-primary ms-auto d-lg-block fw-semibold" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">Register Now</button>
+            </div>
+          </div>
+            <!-- Vertically centered modal -->
+          <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalToggleLabel">Enter Your Email & Password</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- form added here -->
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  <button class="btn btn-primary" type="submit">Register</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <!-- join section end -->
+      
 
       <!-- FAQ start -->
       <section class="margin100">
