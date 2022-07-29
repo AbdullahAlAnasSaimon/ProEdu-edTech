@@ -1,6 +1,7 @@
 /* google font link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+/* utilities styles */
 body{
   font-family: 'Poppins', sans-serif !important;
 }
@@ -18,9 +19,16 @@ ul .social-icons a{
   background-color: #ffffff2e;
   text-decoration: none;
 }
-/* header style */
+
+/* carousel text */
 .slider-max{
   max-height: 500px;
+}
+.slider-heading{
+  font-size: 4vw !important;
+}
+.slider-text{
+  font-size: 2vw !important;
 }
 
 /* students feedback styles */
